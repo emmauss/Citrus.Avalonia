@@ -23,8 +23,4 @@
     <ItemGroup>
         <PackageReference Include="Avalonia" Version="0.10.0" />
     </ItemGroup>
-
-    <ItemGroup>
-        <PackageReference Include="Nerdbank.GitVersioning" Version="3.3.37" PrivateAssets="all" />
-    </ItemGroup>
 </Project>

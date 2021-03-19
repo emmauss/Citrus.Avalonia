@@ -9,6 +9,9 @@
             <RowDefinition Height="*"/>
         </Grid.RowDefinitions>
         <Menu Grid.Row="0">
+            <MenuItem Header="Open submenu action to trigger crash">
+                <MenuItem Header="Open window" Click="MenuItem_OnClick" />
+            </MenuItem>
             <MenuItem Header="Menu option number one">
                 <MenuItem Header="With items">
                     <MenuItem Header="First item" />
